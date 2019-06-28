@@ -1,0 +1,13 @@
+body {
+    background-image: url(../images/kanye-west2.gif);
+    height: 100%;
+}
+
+.question {
+    color:yellow;
+    font-weight: bolder;
+}
+
+.timer {
+    color: yellow;
+}
