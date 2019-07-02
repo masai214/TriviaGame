@@ -21,92 +21,106 @@
             </p>
         </div>
     </div>
-    <div class= "timer text-center"></div>
+    <div class="timer text-center"></div>
     <br>
     <div class=" container text-center ">
-        <button type="button" class= "btn btn-primary timer-start"><h2>Start Timer</h2></button>
+        <button type="button" class="btn btn-primary timer-start">
+            <h2>Start Timer</h2>
+        </button>
     </div>
+    <div class="results text-center question h1"></div>
     <br>
-    <div class="container question question-1">
-        <h3>What is the name of Kanye's first single?</h3>
-        <div class="radio">
-            <label><input type="radio" name="optradio">All Falls Down</label>
+    <form name="quiz">
+        <div class="container question">
+            <h3>What is the name of Kanye's first single?</h3>
+            <div class="radio">
+                <label><input type="radio" name="q1" value="a">All Falls Down</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="q1" value="b">New Workout Plan</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="q1" value="c">Slow Jamz</label>
+            </div>
+            <div class="radio correct">
+                <label><input type="radio" name="q1" value="d">Through the Wire</label>
+            </div>
         </div>
-        <div class="radio">
-            <label><input type="radio" name="optradio">New Workout Plan</label>
+        <br>
+        <div class="container question ">
+            <h3>Which one of these songs did Kanye produce?</h3>
+            <div class="radio">
+                <label><input type="radio" name="q2" value= "a">Touch the Sky</label>
+            </div>
+            <div class="radio correct">
+                <label><input type="radio" name="q2" value= "b">Run This Town</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="q2" value= "c">Public Service Announcement</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="q2" value= "d">Gorgeous</label>
+            </div>
         </div>
-        <div class="radio">
-            <label><input type="radio" name="optradio">Slow Jamz</label>
+        <br>
+        <div class="container question ">
+            <h3>How man grammy has Kanye West won?</h3>
+            <div class="radio">
+                <label><input type="radio" name="q3" value="a">10</label>
+            </div>
+            <div class="radio correct">
+                <label><input type="radio" name="q3" value="b">21</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="q3" value= "c">69</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="q3" value= "d">3</label>
+            </div>
         </div>
-        <div class="radio correct">
-            <label><input type="radio" name="optradio">Through the Wire</label>
+        <br>
+        <div class="container question ">
+            <h3>What is Kanye's most Successful Billboard 200 single?</h3>
+            <div class="radio">
+                <label><input type="radio" name="q4" value= "a">The Good Life</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="q4" value= "b">Stronger</label>
+            </div>
+            <div class="radio correct">
+                <label><input type="radio" name="q4" value= "c">Gold Digger</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="q4" value= "d">N***as in Paris</label>
+            </div>
         </div>
-    </div>
-    <br>
-    <div class="container question question-2">
-        <h3>Which one of these songs did Kanye produce?</h3>
-        <div class="radio">
-            <label><input type="radio" name="optradio">Touch the Sky</label>
-        </div>
-        <div class="radio correct">
-            <label><input type="radio" name="optradio">Run This Town</label>
-        </div>
-        <div class="radio">
-            <label><input type="radio" name="optradio">Public Service Announcement</label>
-        </div>
-        <div class="radio">
-            <label><input type="radio" name="optradio">Gorgeous</label>
-        </div>
-    </div>
-    <br>
-    <div class="container question question-3">
-        <h3>How man grammy has Kanye West won?</h3>
-        <div class="radio">
-            <label><input type="radio" name="optradio">10</label>
-        </div>
-        <div class="radio correct">
-            <label><input type="radio" name="optradio">21</label>
-        </div>
-        <div class="radio">
-            <label><input type="radio" name="optradio">69</label>
-        </div>
-        <div class="radio">
-            <label><input type="radio" name="optradio">3</label>
-        </div>
-    </div>
-    <br>
-    <div class="container question question-4">
-        <h3>What is Kanye's most Successful Billboard 200 single?</h3>
-        <div class="radio">
-            <label><input type="radio" name="optradio">The Good Life</label>
-        </div>
-        <div class="radio">
-            <label><input type="radio" name="optradio">Stronger</label>
-        </div>
-        <div class="radio correct">
-            <label><input type="radio" name="optradio">Gold Digger</label>
-        </div>
-        <div class="radio">
-            <label><input type="radio" name="optradio">N***as in Paris</label>
-        </div>
-    </div>
-    <br>
-    <div class="container question question-5">
+        <br>
+        <div class="container question ">
             <h3>What does kanye's record label G.O.O.D. an acronym for?</h3>
             <div class="radio correct">
-                <label><input type="radio" name="optradio">Getting Out Our Dreams</label>
+                <label><input type="radio" name="q5" value= "a">Getting Out Our Dreams</label>
             </div>
             <div class="radio">
-                <label><input type="radio" name="optradio">Gorgeous Oaths On Drums </label>
+                <label><input type="radio" name="q5" value= "b">Gorgeous Oaths On Drums </label>
             </div>
             <div class="radio">
-                <label><input type="radio" name="optradio">Geniuses Oddly Obeys Directions</label>
+                <label><input type="radio" name="q5" value= "c">Geniuses Oddly Obeys Directions</label>
             </div>
             <div class="radio">
-                <label><input type="radio" name="optradio">Gang Of Our Damaged</label>
+                <label><input type="radio" name="q5" value= "d">Gang Of Our Damaged</label>
             </div>
         </div>
+        <br>
+        <br>
+        <div class=" container text-center ">
+            <button type="button" class="btn btn-primary submit text-center">
+                <h2>Submit Answers</h2>
+            </button></div>
 
+
+    </form>
+    
+    
     <script type="text/javascript" src="./assets/javascript/app.js"></script>
 </body>
 
